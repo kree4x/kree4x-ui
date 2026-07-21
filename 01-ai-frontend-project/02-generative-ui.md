@@ -1,4 +1,4 @@
-# AI时代的UI：AI生成，而非人工编写
+# AI时代的UI：AI声明式生成，而非人工编程式编写
 
 > Created By [RV](mailto:rodney.vin@gmail.com), and licensed with Creative Commons "[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)"
 
@@ -153,7 +153,7 @@ AI生成式UI，采用编程式模型，是毫无性价比的邪路。
 
 虽然废话，但是不得不讲。讲在明处，道理是道理；作为隐含的上下文不讲，则道理会变成鸡汤。
 
-设计AI Native的前端框架时，有几个自然而来的架构特性，需要讲在明处 。
+设计AI Native的前端框架时，有几个自然而来的架构特性，需要讲在明处。
 
 这几个特性，虽然下意识中每个人都知道，但是明确的、有意识的认知，则不一定人人都有。
 
@@ -187,7 +187,7 @@ AI生成式UI，采用编程式模型，是毫无性价比的邪路。
 
 要求用户长时等待，然后一次更新，这是一种糟糕的UX设计。
 
-AI流式输出，Server端Diff后，只增量更新UI的变动部分，才是一种UX、成本、性能约束下合理方案。
+AI流式输出，Server端Diff后，只增量更新UI的变动部分，才是一种UX、成本、性能约束下的合理方案。
 
 
 
